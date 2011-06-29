@@ -1,63 +1,64 @@
 body {
-background: #FFF;
-overflow: hidden;
-color: #414246;
+	background: #FFF;
+	overflow: hidden;
+	color: #A0999C;
 }
 
 #head {
-left: 10%;
-top: 15%;
-position: absolute;
+	left: 10%;
+	top: 15%;
+	position: absolute;
 }
 
 
 #logo {
-display: block;
-width: 55px;
-height: 55px;
-background: #434446;
--moz-border-radius: 27.5px;
--webkit-border-radius: 27.5px;
-text-align: center;
+	display: block;
+	width: 55px;
+	height: 55px;
+	background: #434446;
+	-moz-border-radius: 27.5px;
+	-webkit-border-radius: 27.5px;
+	text-align: center;
 }
 
 #logo p {
-color: #FFF;
-margin-top: 9px;
-margin-left: 9px;
-font-weight: bold;
-font-family: helvetica;
-font-size: 2em;
-text-align: center;
-position: absolute;
+	color: #FFF;
+	margin-top: 9px;
+	margin-left: 9px;
+	font-weight: bold;
+	font-family: helvetica;
+	font-size: 2em;
+	text-align: center;
+	position: absolute;
 }
 
 #container {
-left:30%;
-top: 40%;
-position: absolute;
-height: 420px;
-width: 400px;
-margin: -15% 0 0 -13%;
-text-shadow: 1px 1px 1px #FFF;
+	left:20%;
+	top: 20%;
+	position: absolute;
+	height: 420px;
+	width: 400px;
+	text-shadow: 1px 1px 1px #FFF;
 }
 
 #container h2 {
-font-family: 'Arvo', Georgia, Times, serif;
-font-weight: normal;
-line-height: 45px;
+	font-family: 'Arvo', Georgia, Times, serif;
+	font-weight: normal;
+	line-height: 45px;
 }
 
 #container p {
-font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-font-size: 16px;
-line-height: 25px;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 25px;
 }
 		
 #container a {
-text-decoration: none;
-color: #FE4135;
+	color: #D7D5D6;
 }
 #container a:hover {
-background: #EEE;
+	background: #F4F4F4;
+}
+#heart{
+	color:#FF0060;
 }
