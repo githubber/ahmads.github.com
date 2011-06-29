@@ -6,7 +6,7 @@ color: #414246;
 
 #head {
 left: 10%;
-top: 20%;
+top: 15%;
 position: absolute;
 }
 
@@ -36,7 +36,7 @@ position: absolute;
 left:30%;
 top: 40%;
 position: absolute;
-height: 380px;
+height: 420px;
 width: 400px;
 margin: -15% 0 0 -13%;
 text-shadow: 1px 1px 1px #FFF;
