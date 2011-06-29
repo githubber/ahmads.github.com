@@ -59,6 +59,6 @@ body {
 #container a:hover {
 	background: #F4F4F4;
 }
-#heart{
+#heart:hover{
 	color:#FF7979;
 }
