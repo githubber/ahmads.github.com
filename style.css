@@ -3,35 +3,6 @@ body {
 	overflow: hidden;
 	color: #A0999C;
 }
-
-#head {
-	left: 10%;
-	top: 15%;
-	position: absolute;
-}
-
-
-#logo {
-	display: block;
-	width: 55px;
-	height: 55px;
-	background: #434446;
-	-moz-border-radius: 27.5px;
-	-webkit-border-radius: 27.5px;
-	text-align: center;
-}
-
-#logo p {
-	color: #FFF;
-	margin-top: 9px;
-	margin-left: 9px;
-	font-weight: bold;
-	font-family: helvetica;
-	font-size: 2em;
-	text-align: center;
-	position: absolute;
-}
-
 #container {
 	left:20%;
 	top: 20%;
@@ -48,7 +19,7 @@ body {
 }
 
 #container p {
-	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;	
 	font-size: 16px;
 	line-height: 25px;
 }
@@ -57,7 +28,9 @@ body {
 	color: #D7D5D6;
 }
 #container a:hover {
-	background: #F4F4F4;
+	background: #3D192F;
+	text-shadow: 0;
+	
 }
 #heart:hover{
 	color:#FF7979;
