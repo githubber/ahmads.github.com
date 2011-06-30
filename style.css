@@ -9,7 +9,6 @@ body {
 	position: absolute;
 	height: 420px;
 	width: 400px;
-	text-shadow: 1px 1px 1px #FFF;
 }
 
 #container h2 {
@@ -28,9 +27,8 @@ body {
 	color: #D7D5D6;
 }
 #container a:hover {
-	background: #3D192F;
-	text-shadow: 0;
-	
+	background: #A0999C;
+	color:#FFF;
 }
 #heart:hover{
 	color:#FF7979;
