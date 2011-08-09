@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="description" content="The personal site of Ahmad Salman" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>{{ page.title }}</title>
+		<title>{% if page.title %}{{ page.title }} &mdash; {% endif %} Ahmad Salman</title>
 		<link href="/css/style.css" rel="stylesheet" type="text/css" /> 
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -20,7 +20,7 @@
 			<h1><span id="name"><a href="../index.html">Ahmad Salman<a/></span></h1>
 		</header>
 		
-		{% if page.title != "Ahmad Salman" %}
+		{% if page.title %}
 		<h2>{{ page.title }}</h2>
 		{% endif %}
 		
