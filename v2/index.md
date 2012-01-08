@@ -4,8 +4,6 @@ layout: default
 
 ### I ♥ making things.  
 
-23 years old, from [Saudi Arabia]().  
-
 Passionate about development, design, photography, simplicity, and the Internet.  
 
 I [blog](http://blog.as.sa) in Arabic, and [tweet]() in both Arabic and English.  
