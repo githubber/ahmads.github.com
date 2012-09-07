@@ -100,21 +100,6 @@ pre {
     direction: ltr;
 }
 
-#topNav a,
-#topNav a:visited {
-    padding: 0 5px 0 5px;
-    font-size: 14px;
-    line-height: 14px;
-    color: #c75f8c;
-    text-transform: Uppercase;
-}
-#topNav a:hover,
-#topNav a:active {
-    outline: none;
-    color: {color:Navi Hover};
-    background-color: {color:Navi Hover Background};
-}
-
 hr {
     background-color: #e7e7e7;
     border: 0;
