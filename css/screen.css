@@ -61,30 +61,6 @@ textarea {
     margin-bottom: 0;
 }
 
-#logo {
-    text-align: center;
-}
-
-#logo a {
-    display: block;
-    font-size: 2.4em;
-        text-transform: uppercase;
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-        text-decoration: none;
-    font-weight: 800 !important;
-clear: both;
-width: 78px;
-height: 78px;
-border-radius: 50%;
--moz-border-radius: 50%;
--webkit-border-radius: 50%;
-margin: 0 auto;
-margin-top: 6px;
-background: #444;
-background-size: 100% 100%;
-color: #fff;
-}
-
 p {
     margin: 0pt 0pt 2em
 }
@@ -189,17 +165,16 @@ hr {
 
 #footer {
     text-align: center;
-    color: {color:Navi Links};
     font-size: 12px;
     direction: ltr;
 }
 #footer a:link,
 #footer a:visited {
-    color: {color:Navi Links}
+    color: #888888;
 }
 #footer a:hover,
 #footer a:active {
-    color: {color:Navi Hover Background}
+    color: #a2a2a2;
 }
 
 .ltr {
