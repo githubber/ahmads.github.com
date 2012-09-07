@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Ahmad Salman</title>
+ <link href="http://as.sa/atom.xml" rel="self"/>
+ <link href="http://as.sa/"/>
+ <updated>2012-09-07T13:30:30+03:00</updated>
+ <id>http://as.sa/</id>
+ <author>
+   <name>Ahmad Salman</name>
+ </author>
+
+ 
+ <entry>
+   <title>تعلم البرمجة، أين أبدأ؟</title>
+   <link href="http://as.sa/2012/07/02/Learninig-to-program-where-to-start"/>
+   <updated>2012-07-02T00:00:00+03:00</updated>
+   <id>http://as.sa/2012/07/02/Learninig-to-program-where-to-start</id>
+   <content type="html">&lt;p&gt;
+جميعنا نتعلم بطرق مختلفة. بالقراءة، المشاهدة، أو الممارسة. ثقافة مجتمع المبرمجين تؤمن بالمشاركة وحرية المعلومة. لحسن الحظ، وفر الإنترنت مكانًا مثاليًا لحفظ ومشاركة تلك المعلومات. فلن تجد أي صعوبة في الحصول على كم كبير من الدروس والإجابات وبالطريقة التي تناسبك.
+&lt;/p&gt;
+&lt;p&gt;
+البدء بهدف محدد قد يسهل الأمر، هل تريد تعلم برمجة تطبيقات الهواتف المحمولة؟ برمجة تطبيقات ويب؟ أو تطبيقات سطح المكتب؟ اختيار أحدها -في البداية- يساعد في حد الخيارات المتاحة، فلكل تطبيق أو منصة لغات البرمجة والأُطر المناسبة له. ومما يساعد أكثر، أن يكون لديك فكرة محددة تريد تطبيقها، الأمر الذي يوفر نقطة بداية ودافعًا يبقيك مستمرًا.
+&lt;/p&gt;
+&lt;p&gt;
+لا تقلق كثيرًا حيال لغة البرمجة، اختر لغة حديثة، مناسبة لما تريد صنعه، لها مجتمع نشط، وابدأ. المبادئ الأساسية مشتركة بين الكثير من اللغات. إذا تعلمت واحدة، يصبح الانتقال إلى لغة اخرى أمرًا ليس بالصعب - نسبيًا.
+&lt;/p&gt;
+&lt;p&gt;
+البرمجة هي أداة جديدة تضيفها لصندوق مهارتك، مهارة جديدة، واكتساب مهارة جديدة بتطلب الصبر والكثير من التدريب، لكنها في المقابل ستوفر لك العديد من الفرص التي لم تكن متاحة لك من قبل. قد يكون الأمر صعبًا في البداية نظرًا لطبيعتها الغير مسامحة، لكن متعة الصنع وتلك الانتصارات الصغيرة على مدى الطريق، في كل مرة، مرضية جدًا.
+&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>في JavaScript</title>
+   <link href="http://as.sa/2012/03/29/on-JavaScript"/>
+   <updated>2012-03-29T00:00:00+03:00</updated>
+   <id>http://as.sa/2012/03/29/on-JavaScript</id>
+   <content type="html">&lt;p&gt;في الفترة الأخيرة أقضي كثيرًا من وقت الفراغ -الذي أجده- في إستكشاف وكتابة JavaScript، في الغالب على الخادم بإستخدام &lt;a href=&quot;http://nodejs.org/&quot;&gt;Node&lt;/a&gt;، وكثيرُا في المتصفح.&lt;/p&gt;
+
+&lt;p&gt;في رأيي، ما أكسب JavaScript السمعة السيئة هما سببين رئيسيين: واجهة &lt;a href=&quot;http://en.wikipedia.org/wiki/Document_Object_Model&quot;&gt;DOM&lt;/a&gt;، وواقع أن كثيرًا من المبرمجين -إن كانوا مبرمجين- الذين يستخدمونها يفعلون ذلك مجبرين لا مخيرين.
+
+&lt;/p&gt;
+
+&lt;p&gt;التعامل معها خارج المتصفح عرضني لها بدون ال DOM ووفر لي مجالاً أوسع لإستكشاف اللغة. وجدت أن JavaScript، إذا أخذت الوقت لتعلمها، &lt;b&gt;جميلة حقًا&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;
+
+بعض أفضل المصادر للتعرف على  JavaScript:
+
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://yuiblog.com/crockford/&quot;&gt;Crockford on JavaScript: A Public Lecture Series at Yahoo!&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://shop.oreilly.com/product/9780596517748.do&quot;&gt;JavaScript: The Good Parts&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://eloquentjavascript.net/&quot;&gt;Eloquent JavaScript&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://bonsaiden.github.com/JavaScript-Garden/&quot;&gt;JavaScript Garden&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en/A_re-introduction_to_JavaScript&quot;&gt;A re-introduction to JavaScript&lt;/a&gt;&lt;/li&gt;
+
+&lt;ul&gt;&lt;/ul&gt;&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Couch to 5K</title>
+   <link href="http://as.sa/2012/01/29/Couch-to-5K"/>
+   <updated>2012-01-29T00:00:00+03:00</updated>
+   <id>http://as.sa/2012/01/29/Couch-to-5K</id>
+   <content type="html">&lt;p&gt;أنهيت البارحة يومي الأول من برنامج تدريب Couch to 5k (من الأريكة إلى &lt;a href=&quot;http://ar.wikipedia.org/wiki/5000_%D9%85%D8%AA%D8%B1&quot;&gt;٥ آلاف&lt;/a&gt;)!&lt;/p&gt;
+
+
+
+&lt;p&gt;Couch to 5k هو برنامج تدريب للجري، مصمم ليناسب الجميع، بغض النظر عن مستوى نشاطك الحالي.&lt;br/&gt;
+
+البرنامج من ٩‎ أسابيع، ٣ أيام في الإسبوع، ٢٥ دقيقة في اليوم تقريبُا.. ليس سيئًا، هه؟&lt;/p&gt;
+
+
+
+&lt;p&gt;يمكنك الإطلاع على النسخة العربية من البرنامج &lt;a href=&quot;http://www.c25k.com/c25k-arabic.htm&quot;&gt;هنا&lt;/a&gt; أو الإنجليزية &lt;a href=&quot;http://www.coolrunning.com/engine/2/2_3/181.shtml&quot;&gt;هنا&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;مما ساعدني -جدًا- هو وجود عدد من برامج &lt;a href=&quot;http://chomp.com/q/search/couch%20to%205k?platform=iphone&quot;&gt;iPhone&lt;/a&gt; - و &lt;a href=&quot;http://chomp.com/q/search/couch%20to%205k?platform=android&quot;&gt;Android &lt;/a&gt;- التي تنبهك بأدلة صوتية عن مراحل التدريب (المشي والهرولة) بما يتناسب مع اليوم والإسبوع الذي بلغته، فرتاح من متابعة الوقت.&lt;/p&gt;
+
+
+
+&lt;p&gt;هناك أيضًا مجموعة ملفات &lt;a href=&quot;http://web.me.com/iestynx/Couch_to_5K/MP3_Download.html&quot;&gt;MP3&lt;/a&gt; تؤدي نفس الغرض، يمكن تشغيلها على أي جهاز يدعم هذه الصيغة.&lt;br/&gt;
+
+ويمكن دمجها مع podcast مثلًا بإستخدام GarageBand أو &lt;a href=&quot;http://audacity.sourceforge.net/download/&quot;&gt;Audacity&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;ومن واقع تجربة، أصعب جزء من البرنامج هو.. الخروج من الباب!&lt;br/&gt;
+
+لكن &lt;b&gt;رحلة ال ٥ آلاف متر تبدأ بخطوة.&lt;/b&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>2012</title>
+   <link href="http://as.sa/2012/01/01/2012"/>
+   <updated>2012-01-01T00:00:00+03:00</updated>
+   <id>http://as.sa/2012/01/01/2012</id>
+   <content type="html">&lt;p&gt;
+
+وأصبح عمر هذه المدونة عامًا واحدًا!
+
+مما يعني أنه حان الوقت لمراجعة أهداف العام الماضي ووضع أهداف العام القادم.
+
+&lt;/p&gt;&lt;p&gt;
+
+مراجعة سريعة لأهداف 2011:
+
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;تحسين لياقتي&lt;/li&gt;
+
+&lt;li&gt;قراءة كتب أكثر&lt;/li&gt;
+
+&lt;strike&gt;&lt;li&gt;زيارة بلد واحد جديد على الأقل&lt;/li&gt;&lt;/strike&gt;
+
+&lt;li&gt;إكمال مشروع 52 صورة&lt;/li&gt;
+
+&lt;li&gt;إنشاء portfolio &lt;/li&gt;
+
+&lt;strike&gt;&lt;li&gt;تدشين مشروعين&lt;/li&gt;&lt;/strike&gt;
+
+&lt;strike&gt;&lt;li&gt;كتابة أول برنامج iOS لي&lt;/li&gt;&lt;/strike&gt;
+
+&lt;li&gt;&lt;span&gt;ربما:&lt;/span&gt; تسجيل بودكاست&lt;/li&gt;
+
+&lt;/ul&gt;&lt;p&gt;
+
+ثلاثة من سبعة، ليست سيئة.
+
+&lt;/p&gt;
+
+&lt;p&gt;
+
+عليَّ القول، أجمل ما أنجزته هذا العام هو تطبيق &lt;a href=&quot;http://itunes.apple.com/us/app/days-away/id459200849?ls=1&amp;amp;mt=8&quot;&gt;Days Away&lt;/a&gt;. &lt;br/&gt;
+
+تجربة تطوير تطبيقات الهواتف النقالة تجربة ممتعة بحق. تتطلب مهارات مختفلة كثيرًا عن التطوير لأجهزة الكمبيوتر أو الويب، مما يجعلها مميزة نوعًا ما.
+
+سأُبقي التفاصيل لتدوينة منفصلة.
+
+&lt;/p&gt;
+
+&lt;p&gt;
+
+وضع قائمة واضحة ساعد كثيرًا، لكن الأهداف التي صغتها بطريقة &amp;#8220;فضفاضة&amp;#8221; (مثل تحسين لياقتي) كانت عديمة الفائدة تقريبا (بل حصل العكس في هذه الحالة)، لذا سأتفاداها.
+
+&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;b&gt;أهداف 2012:&lt;/b&gt;
+
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;الوصول لوزني المثالي&lt;/li&gt;
+
+&lt;li&gt;قراءة كتاب على الأقل في الشهر&lt;/li&gt;
+
+&lt;li&gt;كتابة تدوينة على الأقل في الشهر&lt;/li&gt;
+
+&lt;/ul&gt;&lt;p&gt;
+
+نعم، ثلاث أهداف فقط. ليست بسيطة كما تبدوا، كُلها تتطلب تطوير &lt;b&gt;عادات &lt;/b&gt;بالإضافة للمهارات.&lt;br/&gt;
+
+هذه ليست الأهداف الوحيدة للعام الجديد بالتأكيد، لكن هي ما يمكن وضعه في قائمة.
+
+&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;a href=&quot;http://twitter.com/#!/a7mads/status/153068167785234432&quot;&gt;ما هي أهدافكم لـ 2012؟&lt;/a&gt;
+
+&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>TXT FTW</title>
+   <link href="http://as.sa/2011/08/14/TXT-FTW"/>
+   <updated>2011-08-14T00:00:00+03:00</updated>
+   <id>http://as.sa/2011/08/14/TXT-FTW</id>
+   <content type="html">&lt;p&gt;أعتمد على الكتابة الرقمية في تنظيم وحفظ العديد من المشاريع والأفكار، وإعداد القوائم -الكثير من القوائم-. &lt;br/&gt;
+
+إلا أني لم أجد أبدًا الوسيلة التي تناسبني لحفظ تلك النصوص.  &lt;/p&gt;
+
+
+
+&lt;p&gt;الكثير من البرامج المصممة لهذا الغرض مبالغ في تعقيدها، أو تنتج ملفات مهولة في الحجم، أو الأسوأ، لا تنتج أي ملفات، وتكتفي “بحبس” المعلومات في قاعدة بيانات خاصة بالبرنامج. &lt;br/&gt;
+
+حتى إسوعبت -أخيرًا- أن هناك ما صمم لهذا الغرض، &lt;a href=&quot;http://ar.wikipedia.org/wiki/%D9%85%D9%84%D9%81_%D9%86%D8%B5%D9%8A&quot;&gt;الملفات النصية&lt;/a&gt;!  &lt;/p&gt;
+
+
+
+&lt;p&gt;كان لإختياري للملفات النصية -أخيرًا- العديد من الأسباب، أهمها أنها:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;مستقلة. (المزيد في الأسفل)&lt;/li&gt;
+
+&lt;li&gt;أبديّة، فهي هنا لتبقى -أتمني-.&lt;/li&gt;
+
+&lt;li&gt;صغيرة الحجم، مما يجعل نقلها غاية في السهولة -خصوصًا عبر الأنترنت-.&lt;/li&gt;
+
+&lt;li&gt;بسيطة! فهي صممت لهذا الغرض بالتحديد.  &lt;/li&gt;
+
+&lt;/ul&gt;&lt;h4&gt;Write once, run anywhere&lt;/h4&gt;
+
+
+
+&lt;p&gt;ولو أن الفكرة هنا تختلف عن الإستخدام &lt;a href=&quot;http://en.wikipedia.org/wiki/Write_once,_run_anywhere&quot;&gt;الأصلي&lt;/a&gt;  للعبارة٫ إلا أنها تخدم المقصد جيداً.  لن أضطر لتصديرها لصيغ مختلفة لعرضها في أماكن مختلفة. &lt;br/&gt;
+
+و بفضل &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt; بإمكاني تنسيق النص بصيغته “الخام” txt وسأتمكن من قراءته وتحريره على أي منصة تقريبًا.   &lt;/p&gt;
+
+
+
+&lt;h4&gt;فكر، داخل الصندوق&lt;/h4&gt;
+
+
+
+&lt;p&gt;&lt;a href=&quot;http://dropbox.com&quot;&gt;Dropbox&lt;/a&gt; الصندوق الإفتراضي الصغير الذي يجعل كل هذا ممكنًا. &lt;br/&gt;
+
+ فجميع الملفات النصية تعيش في مجلد داخل Dropbox. &lt;br/&gt;
+
+وفجأة، أستطيع الوصول إليها من أي مكان. نعم، بهذه البساطة!  &lt;/p&gt;
+
+
+
+&lt;h4&gt;على Mac&lt;/h4&gt;
+
+
+
+&lt;p&gt;باستخدام برنامج صغير وهو  &lt;a href=&quot;http://notational.net/&quot;&gt;Notational Veloctiy&lt;/a&gt; وبالتحديد توزيعة منه تسمى &lt;a href=&quot;http://brettterpstra.com/project/nvalt/&quot;&gt;nvALT&lt;/a&gt; أصبح تحرير الملفات وإنشاء ملفات جديدة على بعد إختصار لوحة مفاتيح. &lt;br/&gt;
+
+واجهة البرنامج البسيطة والعملية كانت من أهم العوامل المساهمة في إختياري، بالإضافة للعديد من الميزات المفيدة مثل إمكانية إستعراض Markdown، الحفظ التلقائي، و وضع كامل الشاشة. &lt;br/&gt;
+
+وبتعديل الإعدادات قليلًا، أصبح يزامن الملفات مع Dropbox!  &lt;/p&gt;
+
+
+
+&lt;h4&gt;على iPhone&lt;/h4&gt;
+
+
+
+&lt;p&gt;العديد من التطبيقات تتيح التزامن مع Dropbox لكن بعد تجريب عدد منها كان تفضيلي لتطبيق &lt;a href=&quot;http://www.hogbaysoftware.com/products/plaintext&quot;&gt;PlainText&lt;/a&gt;،  أيضًا لبساطته. &lt;br/&gt;
+
+وهو مصمم حول فكرة المزامنة مع Dropbox،  وتتوفر نسخة منه على iPad. &lt;br/&gt;
+
+والآن، ملفاتي أصبحت في جيبي!  &lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>من الفكرة إلى الشبكة في 48 ساعة</title>
+   <link href="http://as.sa/2011/04/03/idea-to-web-in-48-hours"/>
+   <updated>2011-04-03T00:00:00+03:00</updated>
+   <id>http://as.sa/2011/04/03/idea-to-web-in-48-hours</id>
+   <content type="html">&lt;p&gt;قمت قبل يومين بإطلاق &lt;a href=&quot;http://luvdrop.orchestra.io/&quot;&gt;luvDrop&lt;/a&gt;، وهو تطبيق ويب بسيط يوفر طريقة لمشاركة هدايا أفتراضية مع مستخدمي تويتر.&lt;br/&gt;&lt;br/&gt;بدأت الفكرة في الاسبوع السابق، وقررت أن أجعل منها نوعاً من التحدي الشخصي لتطبيق الفكرة ووضعها على الشبكة في عطلة نهاية اسبوع واحدة وبأقل تكلفة ممكنة.&lt;/p&gt;
+
+&lt;p&gt;كانت تجربة ممتعة رغم ضيق الوقت -مما يفسر الإسم الذي إستغرقني دقيقتين على الأقل- خرجت منها بعلومات جديدة، ومشروع تجريبي  .(Experminatal Project)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;إذاً ما المصادر التي ساعدتني على إتمام المشروع في 48 ساعة؟&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Php&quot;&gt;PHP&lt;/a&gt;: تطوير البنية الخلفية &lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/HTML&quot;&gt;HTML&lt;/a&gt; &amp;amp; &lt;a href=&quot;http://en.wikipedia.org/wiki/Cascading_Style_Sheets&quot;&gt;CSS&lt;/a&gt;: تصميم واجهة المستخدم&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;https://github.com/abraham/twitteroauth&quot;&gt;twitteroauth&lt;/a&gt;: مكتبة PHP مفتوحة المصدر للتعامل مع تويتر&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://lab.simurai.com/css/buttons/&quot;&gt;Bonbon Buttons&lt;/a&gt;: مكتبة CSS للأزرار&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.prototypejs.org/&quot;&gt;Prototype&lt;/a&gt;: بيئة عمل جافا سكربت&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt;: لإستضافة الكود&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://orchestra.io/&quot;&gt;Orchestra&lt;/a&gt;: لإطلاق الموقع&lt;/li&gt;
+
+&lt;/ul&gt;&lt;p&gt;+ عدد من مصادر المعلومات على الانترنت&lt;/p&gt;
+
+&lt;p&gt;التكلفة الإجمالية 0 ريال و 48 ساعة.&lt;br/&gt;والأهم، لم أكن بحاجة للحصول على أي تصريح أو موافقة!&lt;br/&gt;&lt;br/&gt;هدفي من كل هذا هو توضيح أن حاجز الدخول (Barrier to entry) و الخسارة المحتملة أصبحت شبه معدومة -أن لم تكن معدومة فعلاُ-.&lt;br/&gt;&lt;br/&gt;فكل ما يقف بينك وبين أن تصبح Google القادم هو أن تكون لديك الرغبة في ذلك، والوقت.&lt;br/&gt;وإذا كانت لديك الرغبة الكافية، فستصنع الوقت.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Applications Folder</title>
+   <link href="http://as.sa/2011/02/24/Applications-Folder"/>
+   <updated>2011-02-24T00:00:00+03:00</updated>
+   <id>http://as.sa/2011/02/24/Applications-Folder</id>
+   <content type="html">&lt;p&gt;أستمتع دائماً بتصفح تدوينات قوائم البرامج ، فهي وسيلة رائعة للتعرف على برامج جديدة، وغالباً مفيدة.&lt;/p&gt;
+
+&lt;p&gt;وفي محاولة لتقليل الفوضى، كنت إعد قائمة -نعم أصبحت مؤخراً من مدمني القوائم- بالبرامج التي أستخدمها &lt;strong&gt;بشكل دائم&lt;/strong&gt;، وأحببت أن أشارككم بها:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.google.com/chrome/&quot;&gt;Chrome&lt;/a&gt;: بفضل سرعته وبعض الإضافات، أصبح مؤخرًا متصفحي الرئيسي&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://macromates.com/&quot;&gt;Textmate&lt;/a&gt;:  محرر نصوص رائع في بساطته مع ذلك مليء بالمزايا، عيبه الوحيد عدم دعمه للعربية، طريقتي المفضلة لتحرير الأكواد. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.blacktree.com/&quot;&gt;Quicksilver&lt;/a&gt;: أداة تسمح لك بتنفيذ مجموعة من مهام النظام، تشغيل البرامج والتحكم بالملفات على سبيل المثال، باستخدام لوحة المفاتيح فقط.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://db.tt/mb0abX8&quot;&gt;Dropbox&lt;/a&gt;:  خدمة استضافة الملفات السحابية والتي تدعم المزامنة التلقائية، أستخدمه للعديد من المهام التي قد أتحدث عنها لاحقاً في تدوينة منفصلة.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://brettterpstra.com/project/nvalt/&quot;&gt;Notational Velocity&lt;/a&gt;: برنامج يتيح لك إنشاء وتحرير الملفات النصية بيساطة وسرعة.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://smilesoftware.com/TextExpander/&quot;&gt;TextExpander&lt;/a&gt;: برنامج يقوم بتحويل كلمات مفتاحية إلي جمل أو قصاصات تحددها مسبقاً.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mizage.com/divvy/&quot;&gt;Divvy&lt;/a&gt;: برنامج صغير جدا وظيفته الوحيدة مساعدتك في ترتيب النوافذ المفتوحة&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://madeatgloria.com/brewery/silvio/reeder&quot;&gt;Reeder&lt;/a&gt;: أفضل قارئ خلاصات على ipad - في رائيي المتواضع- آصبح الآن أفضل قارئ خلاصات على الماك.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot;&gt;Twitter&lt;/a&gt;: برنامج تويتر الرسمي على الماك&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.mamp.info/en/index.html&quot;&gt;MAMP&lt;/a&gt;: حزمة Apache, MySQL و PHP مع واجهة إدارة بسيطة&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.videolan.org/vlc/&quot;&gt;VLC&lt;/a&gt;: مشغل وسائط مفتوح المصدر، لم أواجه للان صيغة لا يستطيع تشغبلها &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.transmissionbt.com/&quot;&gt;Transmission&lt;/a&gt;: برنامج تورنت بسيط وعملي&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>01/52</title>
+   <link href="http://as.sa/2011/01/11/project-52"/>
+   <updated>2011-01-11T00:00:00+03:00</updated>
+   <id>http://as.sa/2011/01/11/project-52</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/a7mads/5340363722/&quot;&gt;&lt;img src=&quot;http://farm6.staticflickr.com/5041/5340363722_70687f6ddc_z.jpg&quot;/&gt;&lt;/a&gt;
+
+&lt;/p&gt;&lt;p&gt;&lt;strong&gt;ماهو مشروع ٥٢ صورة؟&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ببساطة هو مشروع لإلتقاط صورة كل اسبوع لمدة سنة كاملة٫ ٥٢ صورة في ٥٢ اسبوع.&lt;/p&gt;
+
+&lt;p&gt;أعجبتني فكرة أن يكون لدي توثيق لعام كامل -نوعاً ما- دون الالتزام اللازم لمشاريع ٣٦٥ صورة (صورة كل يوم)&lt;/p&gt;
+
+&lt;p&gt;في الغالب لن أقوم بنشر جميع الصور هنا٫ لكن بإمكانك متابعة التحديثات في الألبوم الخاص بالمشروع في &lt;a href=&quot;http://www.flickr.com/photos/a7mads/sets/72157625663938643/&quot;&gt;Flickr&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>أهداف 2011</title>
+   <link href="http://as.sa/2011/01/01/2011"/>
+   <updated>2011-01-01T00:00:00+03:00</updated>
+   <id>http://as.sa/2011/01/01/2011</id>
+   <content type="html">&lt;ul&gt;&lt;li&gt;تحسين لياقتي&lt;/li&gt;
+
+&lt;li&gt;قراءة كتب أكثر&lt;/li&gt;
+
+&lt;li&gt;زيارة بلد واحد جديد على الأقل&lt;/li&gt;
+
+&lt;li&gt;إكمال مشروع 52 صورة&lt;/li&gt;
+
+&lt;li&gt;إنشاء portfolio &lt;/li&gt;
+
+&lt;li&gt;تدشين مشروعين&lt;/li&gt;
+
+&lt;li&gt;كتابة أول برنامج iOS لي&lt;/li&gt;
+
+&lt;li&gt;&lt;span&gt;ربما:&lt;/span&gt; تسجيل بودكاست&lt;/li&gt;
+
+&lt;/ul&gt;&lt;p&gt;هذه هي المرة الاولى التي أضع فيها لائحة محددة بأهم أهدافي للعام الجديد.&lt;/p&gt;
+
+&lt;p&gt;فكرت بأن وجود أهداف واضحة سيساعدني في تذكرها والعمل عليها. لنرى مامدى تأثيرها.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+   <title>في JavaScript</title>
+   <meta name="author" content="Ahmad Salman" />
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+  <script>
+
+  $(window).bind('scroll',function(e){
+     var scrolled = $(window).scrollTop();
+      $('#header').css('opacity',(1-(scrolled * 0.005)));
+  });
+    </script>
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+</head>
+<body>
+
+<div class="site">
+
+    <header id="header">
+      <!-- <div id="logo"><a href="/">45</a></div> -->
+      <h1><a href="/">Ahmad Salman</a></h1>
+        <p>
+          Made <a href="http://itunes.apple.com/us/app/days-away/id459200849?ls=1&mt=8">Days Away</a> among other things. Follow on <a href="http://twitter.com/a7mads">Twitter</a>, <a href="http://github.com/ahmads"> Github</a>, <a href="/atom.xml">RSS</a>
+        </p>
+        <hr>
+    </header>
+  
+  <div class="post">
+<h2>في JavaScript</h2>
+<p>في الفترة الأخيرة أقضي كثيرًا من وقت الفراغ -الذي أجده- في إستكشاف وكتابة JavaScript، في الغالب على الخادم بإستخدام <a href="http://nodejs.org/">Node</a>، وكثيرُا في المتصفح.</p>
+
+<p>في رأيي، ما أكسب JavaScript السمعة السيئة هما سببين رئيسيين: واجهة <a href="http://en.wikipedia.org/wiki/Document_Object_Model">DOM</a>، وواقع أن كثيرًا من المبرمجين -إن كانوا مبرمجين- الذين يستخدمونها يفعلون ذلك مجبرين لا مخيرين.
+
+</p>
+
+<p>التعامل معها خارج المتصفح عرضني لها بدون ال DOM ووفر لي مجالاً أوسع لإستكشاف اللغة. وجدت أن JavaScript، إذا أخذت الوقت لتعلمها، <b>جميلة حقًا</b>.</p>
+
+<p>
+
+بعض أفضل المصادر للتعرف على  JavaScript:
+
+</p><ul><li><a href="http://yuiblog.com/crockford/">Crockford on JavaScript: A Public Lecture Series at Yahoo!</a></li>
+
+<li><a href="http://shop.oreilly.com/product/9780596517748.do">JavaScript: The Good Parts</a></li>
+
+<li><a href="http://eloquentjavascript.net/">Eloquent JavaScript</a></li>
+
+<li><a href="http://bonsaiden.github.com/JavaScript-Garden/">JavaScript Garden</a></li>
+
+<li><a href="https://developer.mozilla.org/en/A_re-introduction_to_JavaScript">A re-introduction to JavaScript</a></li>
+
+<ul></ul></ul>
+
+</div>
+
+<!-- <div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    
+      <li><span>02 Jul 2012</span> &raquo; <a href="/2012/07/02/Learninig-to-program-where-to-start">تعلم البرمجة، أين أبدأ؟</a></li>
+    
+      <li><span>29 Jan 2012</span> &raquo; <a href="/2012/01/29/Couch-to-5K">Couch to 5K</a></li>
+    
+      <li><span>01 Jan 2012</span> &raquo; <a href="/2012/01/01/2012">2012</a></li>
+    
+  </ul>
+</div> -->
+  
+  <div id="footer">
+	<p>
+		Licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons License</a>.
+      </p>
+    </div>
+</div>
+</body>
+</html>

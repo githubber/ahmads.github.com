@@ -1,51 +1,30 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Ahmad Salman</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width = device-width" />
-		<meta name="description" content="The personal site of Ahmad Salman" />
-		<meta name="keywords" content="Ahmad, Salman, personal, Saudi Arabia, design, photography, simple, simplicity, minmal, أحمد, سلمان ,شخصي ,المملكة العربية السعودية ,السعودية ,تصوير ,تصميم ,برمجة ,بساطة" />
-		<meta name="author" content="Ahmad Salman" />
-		<meta name="robots" content="index, follow" />
-		<link rel="stylesheet" href="style.css" />
-		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arvo" />
-		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans" />
-		
-	</head>
-	<body>
-		<div id="container">
-			<h2>Hello! I'm <strong>Ahmad Salman</strong>,<br />I <span id="heart">&hearts;</span> making things. </h2>
-			<p>
-				I made things like <a href="http://itunes.apple.com/us/app/days-away/id459200849?ls=1&mt=8">Days Away</a> and <a href="http://luvdrop.me">luvDrop</a>.
-			</p>
-			<p>
-				Passionate about development, design, photography, simplicity, and the Internet.
-			</p>
-			<p>
-				I <a href="http://blog.as.sa">blog</a> in Arabic, and <a href="http://twitter.com/a7mads">tweet</a> in both Arabic and English.
-			</p>
-			<p>
-				I currently work as a <a href="http://en.wikipedia.org/wiki/Planning">planner</a> for <a href="http://www.saudiaramco.com/">Saudi Aramco</a>,<br />
-				&amp; Study for a bachelor's in Information Technology and Computing.
-			</p>
-			<p>
-				Feel free to email me at hello@as.sa
-			</p>
-		</div>
-		<script type="text/javascript">
+---
+layout: default
+title: Ahmad Salman
+---
+{% for post in paginator.posts %}
+  <div class="post">
+  	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  {{ post.content }}
+  <p class="signoff">
+    &mdash; <a href="{{ post.url }}">{{ post.date | date: "%b %d, %Y" }}</a>
+  </p>
+  </div>
+{% endfor %}
 
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-20093809-6']);
-		  _gaq.push(['_setDomainName', '.as.sa']);
-		  _gaq.push(['_trackPageview']);
-
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-
-		</script>
-	</body>
-</html>
+<div id="pagination">	
+  {% if paginator.next_page %}
+  <span class="next">
+    <a href="/page{{paginator.next_page}}">→ الأقدم</a>
+  </span>
+  {% endif %}
+  {% if paginator.previous_page %}
+  <span class="previous">
+    {% if paginator.previous_page == 1 %}
+    <a href="/">الأحدث ←</a>
+    {% else %}
+    <a href="/page{{paginator.previous_page}}">الأحدث ←</a>
+    {% endif %}
+  </span>
+  {% endif %}
+</div>

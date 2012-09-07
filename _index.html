@@ -1,0 +1,28 @@
+---
+layout: default
+title: Ahmad Salman
+---
+
+<div id="home">
+
+  <h2>Posts <small>(Arabic)</small></h2>
+  <ul class="list">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span><a class="postItem" href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+ <h2>Projects</h2>
+  <ul class="list">
+    <li><a href="http://as.sa/daysaway">Days Away:</a> A simple countdown list iPhone app.</li>
+    <li><a href="http://luvdrop.me/">luvDrop:</a> A small online app to send virtual girts over twitter.</li>
+  </ul>
+
+ <h2>Online</h2>
+  <ul class="list">
+	  <li><a href="http://twitter.com/a7mads/">twitter.com/a7mads</a></li>
+      <li><a href="http://github.com/ahmads/">github.com/ahmads</a></li>
+      <li><a href="http://dribbble.com/ahmads/">dribbble.com/ahmads</a></li>
+  </ul>
+
+</div>
