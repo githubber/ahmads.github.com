@@ -119,8 +119,10 @@ blockquote {
     border-left: 3px solid #999;
     padding-left: 1em;
 }
-t-size: 0.7em
 
+pre {
+    direction: ltr;
+}
 
 #topNav a,
 #topNav a:visited {
