@@ -101,6 +101,10 @@ code {
     direction: ltr;
 }
 
+code {
+    display: inline-block;
+}
+
 hr {
     background-color: #e7e7e7;
     border: 0;
