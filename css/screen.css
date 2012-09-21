@@ -28,7 +28,7 @@ select,
 textarea {
     font: 125%/1.6 'Droid Serif',Georgia,serif;
     color: #3a3a3a;
-    text-align:justify;
+    /*text-align:justify;*/
 }
 #header {
         margin-top: 0;
@@ -96,7 +96,8 @@ blockquote {
     padding-left: 1em;
 }
 
-pre {
+pre,
+code {
     direction: ltr;
 }
 
