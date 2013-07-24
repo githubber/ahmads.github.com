@@ -31,6 +31,10 @@ p {
 	margin-bottom: 1.6em;
 }
 
+strong, b {
+font-weight: bold;
+}
+
 a:link,
 a:visited {
 	color: #c75f8c;
