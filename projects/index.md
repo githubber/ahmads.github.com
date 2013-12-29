@@ -12,6 +12,7 @@ direction: ltr
 * [Laymoon](https://itunes.apple.com/us/app/lymwn-qaymt-mqady-w-tswq/id670554449?mt=8) [Arabic] – The way shopping lists should be
 * [Pendula](https://itunes.apple.com/us/app/unshorten/id547680908?mt=8) – A tactile way to keep track of time
 * [unshorten](https://itunes.apple.com/us/app/unshorten/id547680908?mt=8) – Expand shortened URLs
+* [Feels Awesome](http://feelsawesome.as.sa) – A collection of awesome feels
 * [LuvDrop](http://luvdrop.me) [Retired] – Share virtual gifts
 
 ##Code
