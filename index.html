@@ -14,13 +14,13 @@ title: Ahmad Salman
 
 <div class="pagination">	
   {% if paginator.next_page %}
-    <a href="/page{{paginator.next_page}}">تدوينات أقدم</a>
+    <a class= "button-flat" href="/page{{paginator.next_page}}">تدوينات أقدم</a>
 		{% endif %}
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-    <a href="/">تدوينات أحدث</a>
+    <a class= "button-flat" href="/">تدوينات أحدث</a>
     {% else %}
-    <a href="/page{{paginator.previous_page}}">تدوينات أحدث</a>
+    <a class= "button-flat" href="/page{{paginator.previous_page}}">تدوينات أحدث</a>
     {% endif %}
 		{% endif %}
 </div>
