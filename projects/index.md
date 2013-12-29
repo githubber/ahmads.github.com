@@ -8,7 +8,7 @@ direction: ltr
 
 * [Leash](http://leash.co) – Easily transfer URLs between devices
 * [Hubbble](http://hubbble.co) – Never forget your twitter favorites again
-* [Days Away](https://itunes.apple.com/us/app/days-away-countdown-list/id459200849?mt=8) – Know what to do and when with a glance
+* [Days Away](https://itunes.apple.com/us/app/days-away-countdown-list/id459200849?mt=8) – Know what to do and when
 * [Laymoon](https://itunes.apple.com/us/app/lymwn-qaymt-mqady-w-tswq/id670554449?mt=8) [Arabic] – The way shopping lists should be
 * [Pendula](https://itunes.apple.com/us/app/unshorten/id547680908?mt=8) – A tactile way to keep track of time
 * [unshorten](https://itunes.apple.com/us/app/unshorten/id547680908?mt=8) – Expand shortened URLs
