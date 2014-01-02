@@ -14,10 +14,10 @@ body {
 	-webkit-font-smoothing: antialiased;
 	width: inherit;
 	max-width: 35em;
-	padding: 1.618em;
+	padding: 0.8em;
 	padding-top: 0.7em;
 	margin: auto;
-	text-align:justify;
+  text-align:justify;
 }
 
 body,

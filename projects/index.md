@@ -17,7 +17,7 @@ direction: ltr
 
 ##Code
 
-* ### [ arabicString.js](https://github.com/ahmads/arabicString)
-* ### [unshorten](https://github.com/ahmads/unshorten)
-* ### [Paginate.js](https://github.com/ahmads/Paginate)
-* ### [Qaym API Class](https://github.com/ahmads/Qaym-API-Class)
+* [ arabicString.js](https://github.com/ahmads/arabicString)
+* [unshorten](https://github.com/ahmads/unshorten)
+* [Paginate.js](https://github.com/ahmads/Paginate)
+* [Qaym API Class](https://github.com/ahmads/Qaym-API-Class)
