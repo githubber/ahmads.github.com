@@ -83,7 +83,11 @@
 	var timeSpan = document.querySelector('#time')
 	var timeSpan2 = document.querySelector('#time2')
 	var tweetLink = document.querySelector('#tweetLink')
-	var tweetHref = "http://twitter.com/intent/tweet?text=I was offline for {time} being productive, hopefully. (via http://ahmad.io/offliner)"
+	var tweetHref = "http://twitter.com/intent/tweet?text="
+	var msgs = [
+		"I was offline for {time} being productive, hopefully! (via http://ahmad.io/offliner)",
+		"A whopping {time} of productivity! (via http://ahmad.io/offliner)",
+		"Survived for {time} without internet! (via http://ahmad.io/offliner)"]
 
 	var time = '';
 
@@ -128,11 +132,13 @@
 	}
 	
 	function start() {
+		
 		secondsPassed = 0;
 		clocktimer = setInterval("update()", 1000);
 	}
 	
 	function stop() {
+		
 		clearInterval(clocktimer)
 	}
 
@@ -150,6 +156,8 @@
 		
 		document.body.style.backgroundColor = '#56C4F0'
 		
+		timeSpan.innerText = '0 seconds'
+		
 		onlineView.style.display = 'none';
 		onlineAgainView.style.display = 'none'
 		offlineView.style.display = 'block';
@@ -166,7 +174,11 @@
 		onlineAgainView.style.display = 'block'
 		
 		timeSpan2.innerText = time;
-		tweetLink.href = tweetHref.replace('{time}', time)
+		
+		var msg = msgs[Math.abs(Math.round(Math.random() * msgs.length -1))]
+		msg = msg.replace('{time}', time)
+		
+		tweetLink.href = tweetHref + msg
 		
 		stop()
 	})
