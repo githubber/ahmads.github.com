@@ -1,0 +1,179 @@
+<html>
+	<head>
+	
+	<script src="offline.min.js"></script>
+	
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+
+	
+	<style>
+	
+	
+	body {
+		background-color: #FF3F36;
+		font-family: 'Lato', sans-serif;
+		color: white;
+		max-width: 750px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 6em;
+		text-align: center;
+	}
+	
+	h1 {
+		font-weight: 100;
+		font-size: 7em;
+	}
+	
+	h2 {
+		font-weight: 100;
+	}
+	
+	.button-container {
+		margin: 3em;
+	}
+	
+	.button {
+		text-decoration: none;
+		border: 3px solid;
+		padding: .5em 2em;
+		border-radius: 10px;
+		font-size: 1.6em;
+		color: white;
+	}
+	
+	</style>
+	
+	
+	</head>
+	<body>
+		
+		<div id="onlineView" style="display:block">
+			
+			<h2>Want to get productive?</h2>
+			
+			<h1>Disconnect the internet</h1>
+			<h2>I'll keep track of how long you were offline</h2>
+		</div>
+		
+		<div id="offlineView" style="display:none">
+			
+			<h1>Awesome!</h1>
+			<h2>Getting your productivity on...</h2>
+			<h2>You have been offline for <span id="time">0 seconds</span></h2>
+			
+		</div>
+		
+		<div id="onlineAgainView" style="display:none">
+			
+			<h1>Great job!</h1>
+			<h2>You were offline for <span id="time2">0 seconds</span>!</h2>
+			<div class="button-container">
+			<a id="tweetLink" class="button" href="" target="_blank">Tweet This</a>
+		</div>	
+			<h2>Disconnect again for even <strong>more</strong> productivity</h2>
+		</div>
+
+	
+	<script>
+	
+	var onlineView = document.querySelector('#onlineView')
+	var offlineView = document.querySelector('#offlineView')
+	var onlineAgainView = document.querySelector('#onlineAgainView')
+	var timeSpan = document.querySelector('#time')
+	var timeSpan2 = document.querySelector('#time2')
+	var tweetLink = document.querySelector('#tweetLink')
+	var tweetHref = "http://twitter.com/intent/tweet?text=I was offline for {time} being productive, hopefully. (via http://ahmad.io/offliner)"
+
+	var time = '';
+
+	
+	var secondsPassed = 0;
+		
+	function formatTime(time) {
+		
+		var h = m = s = 0;
+		var newTime = '';
+	
+		h = Math.floor( time / (60 * 60) );
+		time = time % (60 * 60);
+		m = Math.floor( time / (60) );
+		time = time % (60);
+		s = Math.floor(time);
+	
+		if (h > 0) {
+			if (h == 1) newTime += h + ' hour '
+			else newTime += h + ' hours '
+		}
+		if (m > 0) {
+			if (m == 1) newTime += m + ' minute '
+			else newTime += m + ' minutes '
+		}
+		if (s > 0) {
+			if (s == 1) newTime += s + ' second'
+			else newTime += s + ' seconds'
+		}
+		
+		return newTime;
+	}
+	
+	function update() {
+	
+		secondsPassed += 1;
+		
+		time = formatTime(secondsPassed)
+
+		timeSpan.innerText = time
+		
+	}
+	
+	function start() {
+		secondsPassed = 0;
+		clocktimer = setInterval("update()", 1000);
+	}
+	
+	function stop() {
+		clearInterval(clocktimer)
+	}
+
+	
+	Offline.options = {	
+			checkOnLoad: true
+		, reconnect: {
+  			initialDelay: 3
+   		, delay: 3
+  	}
+  }
+ 
+	
+	Offline.on('down', function () {
+		
+		document.body.style.backgroundColor = '#56C4F0'
+		
+		onlineView.style.display = 'none';
+		onlineAgainView.style.display = 'none'
+		offlineView.style.display = 'block';
+		
+		start()
+	})
+	
+	
+	Offline.on('up', function () {
+		
+		document.body.style.backgroundColor = '#3AF06E'
+	
+		offlineView.style.display = 'none';
+		onlineAgainView.style.display = 'block'
+		
+		timeSpan2.innerText = time;
+		tweetLink.href = tweetHref.replace('{time}', time)
+		
+		stop()
+	})
+	
+	</script>
+	
+	</body>
+</html>
+
+
