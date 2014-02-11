@@ -1,5 +1,8 @@
 <html>
 	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Offliner by @a7mads</title>
 	
 	<script src="offline.min.js"></script>
 	
@@ -7,22 +10,29 @@
 
 	
 	<style>
+		
+	*, *:before, *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
 	
 	
 	body {
 		background-color: #FF3F36;
 		font-family: 'Lato', sans-serif;
+		font-size: 160%;
 		color: white;
-		max-width: 750px;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 6em;
+		margin: 0 auto;
+	  max-width: 960px;
+	  width: 90%;		margin-right: auto;
+		margin-top: 15%;
 		text-align: center;
+		text-rendering: optimizeLegibility;
 	}
 	
 	h1 {
-		font-weight: 100;
-		font-size: 7em;
+		font-weight: 300;
 	}
 	
 	h2 {
@@ -30,7 +40,8 @@
 	}
 	
 	.button-container {
-		margin: 3em;
+		margin-top: 3em;
+		margin-bottom: 3em;
 	}
 	
 	.button {
@@ -38,8 +49,35 @@
 		border: 3px solid;
 		padding: .5em 2em;
 		border-radius: 10px;
-		font-size: 1.6em;
+		font-size: 1em;
 		color: white;
+	}
+	
+	.desktop {
+		display: inherit;
+	}
+	
+	.mobile {
+		display: none;
+	}
+	
+	@media screen and (max-width: 640px) {
+		
+		h1 {
+			font-weight: 400;
+		}
+		
+		h2 {
+			font-weight: 300;
+		}
+		
+		.desktop {
+			display: none;
+		}
+		
+		.mobile {
+			display: inherit;
+		}
 	}
 	
 	</style>
@@ -52,7 +90,9 @@
 			
 			<h2>Want to get productive?</h2>
 			
-			<h1>Disconnect the internet</h1>
+			<h1 class="desktop">Disconnect the internet</h1>
+			<h1 class="mobile">Turn on Airplane mode</h1>
+
 			<h2>I'll keep track of how long you were offline</h2>
 		</div>
 		
