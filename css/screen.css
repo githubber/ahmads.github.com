@@ -184,7 +184,7 @@ hr {
 
 .button-flat {
   font: 1em 'Droid Arabic Kufi', serif !important;
-  	position: relative;
+  position: relative;
 	display: inline-block;
 	padding: 5px 25px;
 	margin: 20px 10px;
@@ -236,4 +236,12 @@ hr {
 
 .faded {
   color: #ccc;
+}
+
+@media screen and (max-width: 640px) {
+
+	body {
+		text-align: initial;
+	}
+
 }
