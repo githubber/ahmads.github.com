@@ -12,6 +12,8 @@ direction: ltr
 * [Laymoon](https://itunes.apple.com/us/app/lymwn-qaymt-mqady-w-tswq/id670554449?mt=8) <small class="faded">[Arabic]</small> – The way shopping lists should be
 * [Pendula](https://itunes.apple.com/us/app/pendula/id647592235?mt=8) – A tactile way to keep track of time
 * [unshorten](https://itunes.apple.com/us/app/unshorten/id547680908?mt=8) – Expand shortened URLs
+* [Offliner](http://ahmad.io/offliner) – The ultimate productivity booster
+* [Google Web Fonts Viewer](http://ahmad.io/arabic-google-webfonts) <small class="faded">[Arabic]</small> – A way to preview google's arabic web fonts, since google doesn't provide one
 * [Feels Awesome](http://feelsawesome.as.sa) – A collection of awesome feels
 * [LuvDrop](http://luvdrop.me) <small class="faded">[Retired]</small> – Share virtual gifts
 
