@@ -16,7 +16,11 @@ title: ما هو iBeacon؟
  
   تخيل معي وأنت تتجول في متحف وبمجرد أن تقف أمام معروضة ترى تلقائيًا على جهازك المحمول معلومات كاملة عن المعروضة، تاريخها، وربما فديو قصير عنها. وأن لديك الخيار لتشتري ملصق  للوحة أعجبتك وأنت تقف هناك أمامها من جهازك المحمول. أو أنك تقف في متجرك المفضل أمام قميص أعجبك، يوضح لك التطبيق أن مقاسك غير متوفر ويقترح عليك بدائل متوفرة قد تناسب ذوقك ويعطيك الخيار لاستقبال إشعار عند توفر مقاسك. وبعد أن تنتهي من تسوقك كل ما عليك فعله هو وضع هاتفك المحمول على beacon عند المحاسب ليدفع التطبيق المبلغ الكترونيًا ويعرض لك الايصال.
  
+**تحديث:** شاركني [بندر رفة][bandar] مقطع [فديو][clip] يعرض المزيد من الأمثلة لاستخدامات iBeacon.
+
 [iBeacon]: http://en.wikipedia.org/wiki/IBeacon
 [Protocol]: http://en.wikipedia.org/wiki/Communications_protocol
 [BLE]: http://en.wikipedia.org/wiki/Bluetooth_low_energy
 [CA]: http://en.wikipedia.org/wiki/Context_awareness
+[bandar]: https://twitter.com/bandar
+[clip]: http://youtube.com/watch?v=SrsHBjzt2E8
