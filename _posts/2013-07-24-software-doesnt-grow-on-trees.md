@@ -23,7 +23,7 @@ layout: post
 
 إذا كنت تريد برنامجًًا، والأهم إذا كنت تريد المزيد مثله، رجاءًا، ادفع قيمته.
 
-[^calc-update]: شكرا [لعلاء المكتوم](http://twitter.com/mctoom) للتنبيه لخطأ كان في حساب عدد التحميلات اليومية
+[^calc-update]: شكرا لمن نبهني لخطأ كان في حساب عدد التحميلات اليومية
 
 [dev-cont]: http://www.quora.com/How-much-does-it-cost-to-build-an-iPhone-app
 [reader]: http://reader.google.com
