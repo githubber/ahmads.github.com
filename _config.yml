@@ -3,3 +3,4 @@ markdown: kramdown
 pygments: true
 permalink: /:year/:month/:day/:title
 paginate: 5
+excerpt_separator: qwertyuiuytrewq
