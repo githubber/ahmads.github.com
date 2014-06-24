@@ -1,0 +1,21 @@
+*[Compile Time]: وقت الترجمة
+*[Compiler]: المترجم
+*[Integer]: عدد صحيح
+*[Integers]: أعداد صحيحة
+*[Floating-point values]: أعداد الفاصلة العائمة
+*[String]: سلسلة نصية
+*[Strings]: سلاسل نصية
+*[String literals]: سلاسل نصية حرفية
+*[Boolean]: قيمة منطقية
+*[Booleans]: قيم منطقية
+*[Tuple]: مجموع
+*[Tuples]: مجاميع
+*[Function]: دالة
+*[Functions]: دوال
+*[Array]: مصفوفة
+*[Arrays]: مصفوفات
+*[Dictionary]: معجم
+*[Dictionaries]: معاجم
+*[Optional]: نوع اختياري
+*[Optionals]:  أنواع اختيارية
+*[Run Time]: وفت التنفيذ
